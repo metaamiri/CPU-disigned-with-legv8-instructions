@@ -21,12 +21,18 @@ FLOWTOOLS=NONE
 FAMILY=Xilinx SPARTAN6
 [Files]
 /alu.vhd=-1
+/RegisterFile.vhd=-1
 TestBench/alu_TB.vhd=-1
 TestBench/alu_TB_runtest.do=-1
+TestBench/registerfile_TB.vhd=-1
+TestBench/registerfile_TB_runtest.do=-1
 [Files.Data]
 .\src\alu.vhd=VHDL Source Code
+.\src\RegisterFile.vhd=VHDL Source Code
 .\src\TestBench\alu_TB.vhd=VHDL Test Bench
 .\src\TestBench\alu_TB_runtest.do=Macro
+.\src\TestBench\registerfile_TB.vhd=VHDL Test Bench
+.\src\TestBench\registerfile_TB_runtest.do=Macro
 [Groups]
 TestBench=1
 [HierarchyViewer]

@@ -1,7 +1,13 @@
-48
+65
 ~E 1 "../src/alu.vhd" 6 ALU
 ~A 1 "../src/alu.vhd" 19 Behavioral
 ~E 1 "../src/TestBench/alu_TB.vhd" 8 alu_tb
 ~A 1 "../src/TestBench/alu_TB.vhd" 9 behavioral
 ~A 1 "../src/TestBench/alu_TB.vhd" 11 TB_ARCHITECTURE
+~E 1 "../src/RegisterFile.vhd" 5 RegisterFile
+~A 1 "../src/RegisterFile.vhd" 18 Behavioral
+~E 1 "../src/TestBench/registerfile_TB.vhd" 7 registerfile_tb
+~A 1 "../src/TestBench/registerfile_TB.vhd" 10 TB_ARCHITECTURE
+~A 1 "../src/TestBench/registerfile_TB.vhd" 8 testbench
 ~C 1 "../src/TestBench/alu_TB.vhd" 112 testbench_for_alu
+~C 1 "../src/TestBench/registerfile_TB.vhd" 98 testbench_for_registerfile

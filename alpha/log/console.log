@@ -1,177 +1,23 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-open -txt {D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\alpha\alpha.wsw}
-open -txt {D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\alpha\library.cfg}
-acom -O3 -e 100 -work alpha -2002  $dsn/src/TestBench/alu_TB.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (62, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (62, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (62, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (62, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (69, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (69, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (69, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (69, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (76, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (76, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (76, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (76, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (83, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (83, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (83, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (83, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (89, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (89, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (89, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (89, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (95, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (95, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (95, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (95, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (101, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (101, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (101, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (101, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (115, 53): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (115, 53): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (115, 53): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (115, 53): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (122, 53): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (122, 53): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (122, 53): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (122, 53): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Compile Configuration "TESTBENCH_FOR_alu"
-# Compile failure 36 Errors 0 Warnings  Analysis time :  32.0 [ms]
-acom -O3 -e 100 -work alpha -2002  $dsn/src/TestBench/alu_TB.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (61, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (61, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (61, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (61, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (68, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (68, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (68, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (68, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (75, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (75, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (75, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (75, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (82, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (82, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (82, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (82, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (88, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (88, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (88, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (88, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (94, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (94, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (94, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (94, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (100, 52): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (100, 52): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (100, 52): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (100, 52): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (114, 53): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (114, 53): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (114, 53): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (114, 53): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Error: COMP96_0078: TestBench/alu_TB.vhd : (121, 53): Unknown identifier "to_integer".
-# Error: COMP96_0133: TestBench/alu_TB.vhd : (121, 53): Cannot find object declaration.
-# Error: COMP96_0289: TestBench/alu_TB.vhd : (121, 53): Prefix of index must be an array.
-# Error: COMP96_0137: TestBench/alu_TB.vhd : (121, 53): This parameter is not compatible with the parameter allowed for attribute 'IMAGE.
-# Compile Configuration "TESTBENCH_FOR_alu"
-# Error: VLM_0009: TestBench/alu_TB.vhd : (131, 6): Architecture TB_ARCHITECTURE must be recompiled because entity alpha.alu_tb has changed.
-# Compile failure 37 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work alpha -2002  $dsn/src/TestBench/alu_TB.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
-# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+open -txt {D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\CPU-disigned-with-legv8-instructions\alpha.wsw}
+open -txt {D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\CPU-disigned-with-legv8-instructions\library.cfg}
+open -txt {D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\CPU-disigned-with-legv8-instructions\README.md}
 SetActiveLib -work
 comp -include "$dsn\src\alu.vhd" 
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/alu.vhd
 # Compile Entity "ALU"
 # Compile Architecture "Behavioral" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
 comp -include "$dsn\src\TestBench\alu_TB.vhd" 
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-asim +access +r TESTBENCH_FOR_alu 
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5406 kB (elbread=427 elab2=4839 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\alpha\alpha\src\wave.asdb
-#  23:36, Saturday, February 8, 2025
-#  Simulation has been initialized
-wave 
-wave -noreg A
-wave -noreg B
-wave -noreg Opcode
-wave -noreg Result
-wave -noreg Zero
-wave -noreg Carry
-wave -noreg Sign
-# # The following lines can be used for timing simulation
-# # acom <backannotated_vhdl_file_name>
-# # comp -include "$dsn\src\TestBench\alu_TB_tim_cfg.vhd" 
-# # asim +access +r TIMING_FOR_alu 
-# VSIM: 7 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-run 100 ns
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/UUT,  Process: line__23.
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-acom -O3 -e 100 -work alpha -2002  $dsn/src/TestBench/alu_TB.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/TestBench/alu_TB.vhd
 # Compile Entity "alu_tb"
 # Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
 # Compile Configuration "TESTBENCH_FOR_alu"
 # Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
-SetActiveLib -work
-comp -include "$dsn\src\alu.vhd" 
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-comp -include "$dsn\src\TestBench\alu_TB.vhd" 
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
 asim +access +r TESTBENCH_FOR_alu 
-# VSIM: Simulation has finished.
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
 # VSIM: Stack memory: 32MB
@@ -186,13 +32,12 @@ asim +access +r TESTBENCH_FOR_alu
 # SLP: Elaboration phase ...
 # SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
 # SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
 # KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5406 kB (elbread=427 elab2=4840 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\alpha\alpha\src\wave.asdb
-#  23:37, Saturday, February 8, 2025
+# Allocation: Simulator allocated 5405 kB (elbread=427 elab2=4839 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\CPU-disigned-with-legv8-instructions\alpha\src\wave.asdb
+#  18:02, Monday, February 10, 2025
 #  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
 wave 
 wave -noreg A
 wave -noreg B
@@ -206,380 +51,165 @@ wave -noreg Sign
 # # comp -include "$dsn\src\TestBench\alu_TB_tim_cfg.vhd" 
 # # asim +access +r TIMING_FOR_alu 
 # VSIM: 7 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/wave.asdb'.
 run @100ns
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/UUT,  Process: line__23.
-# KERNEL: stopped at time: 100 ns
-acom -O3 -e 100 -work alpha -2002  $dsn/src/TestBench/alu_TB.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-SetActiveLib -work
-comp -include "$dsn\src\alu.vhd" 
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-comp -include "$dsn\src\TestBench\alu_TB.vhd" 
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-asim +access +r TESTBENCH_FOR_alu 
-# VSIM: Simulation has finished.
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5403 kB (elbread=427 elab2=4837 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\alpha\alpha\src\wave.asdb
-#  23:47, Saturday, February 8, 2025
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-wave 
-wave -noreg A
-wave -noreg B
-wave -noreg Opcode
-wave -noreg Result
-wave -noreg Zero
-wave -noreg Carry
-wave -noreg Sign
-# # The following lines can be used for timing simulation
-# # acom <backannotated_vhdl_file_name>
-# # comp -include "$dsn\src\TestBench\alu_TB_tim_cfg.vhd" 
-# # asim +access +r TIMING_FOR_alu 
-# VSIM: 7 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-run @100ns
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/UUT,  Process: line__23.
-# KERNEL: stopped at time: 100 ns
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
 acom -O3 -e 100 -work alpha -2002  $dsn/src/alu.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/alu.vhd
 # Compile Entity "ALU"
 # Compile Architecture "Behavioral" of Entity "ALU"
-# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
-# Error: COMP96_0019: alu.vhd : (24, 9): Keyword 'end' expected.
-# Error: COMP96_0016: alu.vhd : (24, 14): Design unit declaration expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work alpha -2002  $dsn/src/alu.vhd
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work alpha -2002  $dsn/src/RegisterFile.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
-# Error: COMP96_0019: alu.vhd : (26, 9): Keyword 'end' expected.
-# Error: COMP96_0016: alu.vhd : (26, 14): Design unit declaration expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work alpha -2002  $dsn/src/alu.vhd
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/RegisterFile.vhd
+# Compile Entity "RegisterFile"
+# Compile Architecture "Behavioral" of Entity "RegisterFile"
+# Error: COMP96_0078: RegisterFile.vhd : (28, 28): Unknown identifier "to_integer".
+# Error: COMP96_0133: RegisterFile.vhd : (28, 28): Cannot find object declaration.
+# Error: COMP96_0289: RegisterFile.vhd : (28, 28): Prefix of index must be an array.
+# Error: COMP96_0138: RegisterFile.vhd : (28, 28): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0078: RegisterFile.vhd : (29, 28): Unknown identifier "to_integer".
+# Error: COMP96_0133: RegisterFile.vhd : (29, 28): Cannot find object declaration.
+# Error: COMP96_0289: RegisterFile.vhd : (29, 28): Prefix of index must be an array.
+# Error: COMP96_0138: RegisterFile.vhd : (29, 28): The index types in the reference to the array object are incompatible with its range type.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work alpha -2002  $dsn/src/RegisterFile.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
-# Error: COMP96_0019: alu.vhd : (26, 9): Keyword 'end' expected.
-# Error: COMP96_0016: alu.vhd : (26, 14): Design unit declaration expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work alpha -2002  $dsn/src/alu.vhd
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/RegisterFile.vhd
+# Compile Entity "RegisterFile"
+# Compile Architecture "Behavioral" of Entity "RegisterFile"
+# Error: COMP96_0419: RegisterFile.vhd : (29, 39): Ambiguous reference to "unsigned". Visible declarations include 'ieee.NUMERIC_STD.unsigned' and 'ieee.std_logic_arith.unsigned'.
+# Error: COMP96_0272: RegisterFile.vhd : (29, 39): Ambiguous reference to type "UNSIGNED".
+# Error: COMP96_0305: RegisterFile.vhd : (29, 28): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: RegisterFile.vhd : (29, 28): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0419: RegisterFile.vhd : (30, 39): Ambiguous reference to "unsigned". Visible declarations include 'ieee.NUMERIC_STD.unsigned' and 'ieee.std_logic_arith.unsigned'.
+# Error: COMP96_0272: RegisterFile.vhd : (30, 39): Ambiguous reference to type "UNSIGNED".
+# Error: COMP96_0305: RegisterFile.vhd : (30, 28): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: RegisterFile.vhd : (30, 28): The index types in the reference to the array object are incompatible with its range type.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work alpha -2002  $dsn/src/RegisterFile.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/RegisterFile.vhd
+# Compile Entity "RegisterFile"
+# Compile Architecture "Behavioral" of Entity "RegisterFile"
+# Error: COMP96_0078: RegisterFile.vhd : (28, 28): Unknown identifier "to_integer".
+# Error: COMP96_0133: RegisterFile.vhd : (28, 28): Cannot find object declaration.
+# Error: COMP96_0289: RegisterFile.vhd : (28, 28): Prefix of index must be an array.
+# Error: COMP96_0138: RegisterFile.vhd : (28, 28): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0078: RegisterFile.vhd : (29, 28): Unknown identifier "to_integer".
+# Error: COMP96_0133: RegisterFile.vhd : (29, 28): Cannot find object declaration.
+# Error: COMP96_0289: RegisterFile.vhd : (29, 28): Prefix of index must be an array.
+# Error: COMP96_0138: RegisterFile.vhd : (29, 28): The index types in the reference to the array object are incompatible with its range type.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work alpha -2002  $dsn/src/RegisterFile.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/RegisterFile.vhd
+# Compile Entity "RegisterFile"
+# Compile Architecture "Behavioral" of Entity "RegisterFile"
+# Error: COMP96_0419: RegisterFile.vhd : (29, 39): Ambiguous reference to "unsigned". Visible declarations include 'ieee.NUMERIC_STD.unsigned' and 'ieee.std_logic_arith.unsigned'.
+# Error: COMP96_0272: RegisterFile.vhd : (29, 39): Ambiguous reference to type "UNSIGNED".
+# Error: COMP96_0305: RegisterFile.vhd : (29, 28): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: RegisterFile.vhd : (29, 28): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0419: RegisterFile.vhd : (30, 39): Ambiguous reference to "unsigned". Visible declarations include 'ieee.NUMERIC_STD.unsigned' and 'ieee.std_logic_arith.unsigned'.
+# Error: COMP96_0272: RegisterFile.vhd : (30, 39): Ambiguous reference to type "UNSIGNED".
+# Error: COMP96_0305: RegisterFile.vhd : (30, 28): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: RegisterFile.vhd : (30, 28): The index types in the reference to the array object are incompatible with its range type.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work alpha -2002  $dsn/src/RegisterFile.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/RegisterFile.vhd
+# Compile Entity "RegisterFile"
+# Compile Architecture "Behavioral" of Entity "RegisterFile"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work alpha -2002  $dsn/src/TestBench/registerfile_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/TestBench/registerfile_TB.vhd
+# Compile Entity "RegisterFile_tb"
+# Compile Architecture "testbench" of Entity "RegisterFile_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+SetActiveLib -work
+comp -include "$dsn\src\RegisterFile.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/RegisterFile.vhd
+# Compile Entity "RegisterFile"
+# Compile Architecture "Behavioral" of Entity "RegisterFile"
 # Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work alpha -2002  $dsn/src/alu.vhd
+comp -include "$dsn\src\TestBench\registerfile_TB.vhd" 
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/TestBench/registerfile_TB.vhd
+# Compile Entity "RegisterFile_tb"
+# Compile Architecture "testbench" of Entity "RegisterFile_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim +access +r TESTBENCH_FOR_registerfile 
+# VSIM: Simulation has finished.
+# Error: VSIM: Unknown library unit `TESTBENCH_FOR_registerfile' specified.
+# Error: VSIM: cannot select specified top-level
+# Error: DO_001 in file D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\CPU-disigned-with-legv8-instructions\alpha\src\TestBench\registerfile_TB_runtest.do line 4
+# Error: Cannot run D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\CPU-disigned-with-legv8-instructions\alpha\src\TestBench\registerfile_TB_runtest.do
+SetActiveLib -work
+comp -include "$dsn\src\RegisterFile.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/RegisterFile.vhd
+# Compile Entity "RegisterFile"
+# Compile Architecture "Behavioral" of Entity "RegisterFile"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\TestBench\registerfile_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/TestBench/registerfile_TB.vhd
+# Compile Entity "RegisterFile_tb"
+# Compile Architecture "testbench" of Entity "RegisterFile_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim +access +r TESTBENCH_FOR_registerfile 
+# Error: VSIM: Unknown library unit `TESTBENCH_FOR_registerfile' specified.
+# Error: VSIM: cannot select specified top-level
+# Error: DO_001 in file D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\CPU-disigned-with-legv8-instructions\alpha\src\TestBench\registerfile_TB_runtest.do line 4
+# Error: Cannot run D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\CPU-disigned-with-legv8-instructions\alpha\src\TestBench\registerfile_TB_runtest.do
+acom -O3 -e 100 -work alpha -2002  $dsn/src/TestBench/registerfile_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/TestBench/registerfile_TB.vhd
+# Compile Entity "registerfile_tb"
+# Compile Architecture "testbench" of Entity "registerfile_tb"
 # Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -e 100 -work alpha -2002  $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work alpha -2002  $dsn/src/TestBench/alu_TB.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
 SetActiveLib -work
-comp -include "$dsn\src\alu.vhd" 
+comp -include "$dsn\src\RegisterFile.vhd" 
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-comp -include "$dsn\src\TestBench\alu_TB.vhd" 
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/RegisterFile.vhd
+# Compile Entity "RegisterFile"
+# Compile Architecture "Behavioral" of Entity "RegisterFile"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\registerfile_TB.vhd" 
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/TestBench/registerfile_TB.vhd
+# Compile Entity "registerfile_tb"
+# Compile Architecture "testbench" of Entity "registerfile_tb"
 # Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-asim +access +r TESTBENCH_FOR_alu 
-# VSIM: Simulation has finished.
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5403 kB (elbread=427 elab2=4837 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\alpha\alpha\src\wave.asdb
-#  0:09, Sunday, February 9, 2025
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-wave 
-wave -noreg A
-wave -noreg B
-wave -noreg Opcode
-wave -noreg Result
-wave -noreg Zero
-wave -noreg Carry
-wave -noreg Sign
-# # The following lines can be used for timing simulation
-# # acom <backannotated_vhdl_file_name>
-# # comp -include "$dsn\src\TestBench\alu_TB_tim_cfg.vhd" 
-# # asim +access +r TIMING_FOR_alu 
-# VSIM: 7 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-acom -O3 -e 100 -work alpha -2002  $dsn/src/TestBench/alu_TB.vhd
+asim +access +r TESTBENCH_FOR_registerfile 
+# Error: VSIM: Unknown library unit `TESTBENCH_FOR_registerfile' specified.
+# Error: VSIM: cannot select specified top-level
+# Error: DO_001 in file D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\CPU-disigned-with-legv8-instructions\alpha\src\TestBench\registerfile_TB_runtest.do line 4
+# Error: Cannot run D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\CPU-disigned-with-legv8-instructions\alpha\src\TestBench\registerfile_TB_runtest.do
+acom -O3 -e 100 -work alpha -2002  $dsn/src/TestBench/registerfile_TB.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-SetActiveLib -work
-comp -include "$dsn\src\alu.vhd" 
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-comp -include "$dsn\src\TestBench\alu_TB.vhd" 
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
-# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
-asim +access +r TESTBENCH_FOR_alu 
-# VSIM: Simulation has finished.
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5406 kB (elbread=427 elab2=4840 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\alpha\alpha\src\wave.asdb
-#  0:10, Sunday, February 9, 2025
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-wave 
-wave -noreg A
-wave -noreg B
-wave -noreg Opcode
-wave -noreg Result
-wave -noreg Zero
-wave -noreg Carry
-wave -noreg Sign
-# # The following lines can be used for timing simulation
-# # acom <backannotated_vhdl_file_name>
-# # comp -include "$dsn\src\TestBench\alu_TB_tim_cfg.vhd" 
-# # asim +access +r TIMING_FOR_alu 
-# VSIM: 7 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-run @100ns
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-acom -O3 -e 100 -work alpha -2002  $dsn/src/TestBench/alu_TB.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/TestBench/registerfile_TB.vhd
+# Compile Entity "registerfile_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "registerfile_tb"
+# Compile Configuration "TESTBENCH_FOR_registerfile"
 # Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
 SetActiveLib -work
-comp -include "$dsn\src\alu.vhd" 
+comp -include "$dsn\src\RegisterFile.vhd" 
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-comp -include "$dsn\src\TestBench\alu_TB.vhd" 
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/RegisterFile.vhd
+# Compile Entity "RegisterFile"
+# Compile Architecture "Behavioral" of Entity "RegisterFile"
 # Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-asim +access +r TESTBENCH_FOR_alu 
-# VSIM: Simulation has finished.
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5405 kB (elbread=427 elab2=4839 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\alpha\alpha\src\wave.asdb
-#  0:13, Sunday, February 9, 2025
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-wave 
-wave -noreg A
-wave -noreg B
-wave -noreg Opcode
-wave -noreg Result
-wave -noreg Zero
-wave -noreg Carry
-wave -noreg Sign
-# # The following lines can be used for timing simulation
-# # acom <backannotated_vhdl_file_name>
-# # comp -include "$dsn\src\TestBench\alu_TB_tim_cfg.vhd" 
-# # asim +access +r TIMING_FOR_alu 
-# VSIM: 7 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-run 100 ns
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-SetActiveLib -work
-comp -include "$dsn\src\alu.vhd" 
+comp -include "$dsn\src\TestBench\registerfile_TB.vhd" 
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# Error: COMP96_0123: alu.vhd : (79, 17): Variable or constant cannot be the target of a signal assignment.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
-# Error: DO_001 in file D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\alpha\alpha\src\TestBench\alu_TB_runtest.do line 2
-# Error: Cannot run D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\alpha\alpha\src\TestBench\alu_TB_runtest.do
-acom -O3 -e 100 -work alpha -2002  $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# Error: COMP96_0123: alu.vhd : (79, 17): Variable or constant cannot be the target of a signal assignment.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work alpha -2002  $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-SetActiveLib -work
-comp -include "$dsn\src\alu.vhd" 
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/alu.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-comp -include "$dsn\src\TestBench\alu_TB.vhd" 
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/TestBench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
-# Compile Configuration "TESTBENCH_FOR_alu"
+# File: D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/CPU-disigned-with-legv8-instructions/alpha/src/TestBench/registerfile_TB.vhd
+# Compile Entity "registerfile_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "registerfile_tb"
+# Compile Configuration "TESTBENCH_FOR_registerfile"
 # Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
-asim +access +r TESTBENCH_FOR_alu 
-# VSIM: Simulation has finished.
+asim +access +r TESTBENCH_FOR_registerfile 
 # ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5405 kB (elbread=427 elab2=4839 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location D:\meta\uni\memari\s2\vhdl ethods\My_CA_project_2\alpha\alpha\src\wave.asdb
-#  0:17, Sunday, February 9, 2025
-#  Simulation has been initialized
-wave 
-wave -noreg A
-wave -noreg B
-wave -noreg Opcode
-wave -noreg Result
-wave -noreg Zero
-wave -noreg Carry
-wave -noreg Sign
-# # The following lines can be used for timing simulation
-# # acom <backannotated_vhdl_file_name>
-# # comp -include "$dsn\src\TestBench\alu_TB_tim_cfg.vhd" 
-# # asim +access +r TIMING_FOR_alu 
-# VSIM: 7 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'D:/meta/uni/memari/s2/vhdl ethods/My_CA_project_2/alpha/alpha/src/wave.asdb'.
-run 100 ns
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-endsim
-# VSIM: Simulation has finished.
+# ELBREAD: Ela

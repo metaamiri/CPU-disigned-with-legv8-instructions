@@ -80,7 +80,7 @@ begin
                 Carry  <= '0';
         end case;
 
-        -- Zero flag (Now using temp_output instead of Result)
+        -- Zero flag (Now using temp_var instead of Result)
         if temp_var = "00000000" then
             Zero <= '1';
         else
@@ -89,7 +89,7 @@ begin
 
         -- Sign flag
         Sign <= temp_var(7);
-		 -- temp_output process
+		 -- temp_var process
     	temp_output <= temp_var;
     end process;			   
 	 -- Assign temp_output to actual Result output

@@ -1,2 +1,4 @@
 i<>.\src\alu.vhd
 i<>.\src\TestBench\alu_TB.vhd
+i<>.\src\RegisterFile.vhd
+i<>.\src\TestBench\registerfile_TB.vhd
