@@ -1,0 +1,12 @@
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\alpha\src/TestBench/alu_TB.vhd|]
+TemplateId=0
+tab=lu
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\alpha\src/alu.vhd|]
+TemplateId=0
+tab=lu
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\alpha.wsw|]
+TemplateId=1
+tab=lu
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\library.cfg|]
+TemplateId=1
+tab=lu
